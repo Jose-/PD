@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="alquiler" size="1024,861" id="poo.alquiler" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D313020506174726F6E6573">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1" name="GestorRegistro" location="199,720" size="187,121" id="poo.alquiler/GestorRegistro" runTimeClassModel="GestorRegistro(Ljava.util.ArrayList;),totalHorasAlquiladas(),registros,totalDineroFacturado()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="registros" id="poo.alquiler/GestorRegistro#registros"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,54">
+      <children xsi:type="editmodel:MethodEditModel" name="GestorRegistro" id="poo.alquiler/GestorRegistro#GestorRegistro(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="totalDineroFacturado" id="poo.alquiler/GestorRegistro#totalDineroFacturado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="totalHorasAlquiladas" id="poo.alquiler/GestorRegistro#totalHorasAlquiladas()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/GestorRegistro->poo.alquiler/Registro*poo.alquiler/GestorRegistro-Soyatec::Import->poo.alquiler/Registro" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="184,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,121"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Test" location="286,350" size="87,85" id="poo.alquiler/Test" runTimeClassModel="main([Ljava.lang.String;),prueba()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="64,36">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="poo.alquiler/Test#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prueba" id="poo.alquiler/Test#prueba()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Test->poo.alquiler/Coche" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,64"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Test->poo.alquiler/GestorRegistro*poo.alquiler/Test->poo.alquiler/GestorRegistro*poo.alquiler/Test-Soyatec::Import->poo.alquiler/GestorRegistro" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="43,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="130,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Test->poo.alquiler/Cliente" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,54"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Test->poo.alquiler/Moto" source="//@children.1" target="//@children.7" targetEnd="//@children.1/@sourceConnections.3/@children.2" label="//@children.1/@sourceConnections.3/@children.0" sourceEnd="//@children.1/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,52"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Test->poo.alquiler/Registro" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.4/@children.2" label="//@children.1/@sourceConnections.4/@children.0" sourceEnd="//@children.1/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,72" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="4,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Test-Soyatec::Access->poo.alquiler/Categoria" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.5/@children.2" label="//@children.1/@sourceConnections.5/@children.0" sourceEnd="//@children.1/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Access»" size="50,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,107"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.1/@sourceConnections.5" name="Categoria" location="50,50" size="104,107" id="poo.alquiler/Categoria" runTimeClassModel="B%,A%,C%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="27,54">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="A" id="poo.alquiler/Categoria#A%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="B" id="poo.alquiler/Categoria#B%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="C" id="poo.alquiler/Categoria#C%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.1/@sourceConnections.2" name="Cliente" location="749,338" size="156,175" id="poo.alquiler/Cliente" runTimeClassModel="getDNI(),Cliente(Ljava.lang.String;Ljava.lang.String;),dNI,setFechaNacimiento(Ljava.lang.String;),setDNI(Ljava.lang.String;),fechaNacimiento,getFechaNacimiento()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="dNI" id="poo.alquiler/Cliente#dNI"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fechaNacimiento" id="poo.alquiler/Cliente#fechaNacimiento"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Cliente" id="poo.alquiler/Cliente#Cliente(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDNI" id="poo.alquiler/Cliente#getDNI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFechaNacimiento" id="poo.alquiler/Cliente#getFechaNacimiento()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDNI" id="poo.alquiler/Cliente#setDNI(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFechaNacimiento" id="poo.alquiler/Cliente#setFechaNacimiento(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.1/@sourceConnections.4" name="Registro" location="507,517" size="184,121" id="poo.alquiler/Registro" runTimeClassModel="Registro(Lpoo.alquiler.Vehiculo;Lpoo.alquiler.Cliente;DD),getTotalHorasFacturadas(),totalFactura(),totalHorasFacturadas">
+    <children xsi:type="editmodel:CompartmentEditModel" size="161,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="totalHorasFacturadas" id="poo.alquiler/Registro#totalHorasFacturadas"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="151,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Registro" id="poo.alquiler/Registro#Registro(Lpoo.alquiler.Vehiculo;Lpoo.alquiler.Cliente;DD)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTotalHorasFacturadas" id="poo.alquiler/Registro#getTotalHorasFacturadas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="totalFactura" id="poo.alquiler/Registro#totalFactura()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Registro-Soyatec::Import->poo.alquiler/Cliente" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="182,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,139"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Registro-Soyatec::Access->poo.alquiler/Vehiculo*poo.alquiler/Registro-Soyatec::Import->poo.alquiler/Vehiculo" source="//@children.4" target="//@children.8" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access»" size="84,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,67"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="Coche" location="528,183" size="84,67" id="poo.alquiler/Coche" runTimeClassModel="Coche(ILjava.lang.String;Lpoo.alquiler.Categoria;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="61,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Coche" id="poo.alquiler/Coche#Coche(ILjava.lang.String;Lpoo.alquiler.Categoria;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Coche->poo.alquiler/Categoria*poo.alquiler/Coche-Soyatec::Import->poo.alquiler/Categoria" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,23" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,66"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Coche->poo.alquiler/Vehiculo" source="//@children.5" target="//@children.8" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,67"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="poo.alquiler/Vehiculo&lt;-poo.alquiler/Coche" source="//@children.5" target="//@children.6/@sourceConnections.1" targetEnd="//@children.5/@sourceConnections.2/@children.1" sourceEnd="//@children.5/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="42,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Bicicleta" location="401,183" size="97,67" id="poo.alquiler/Bicicleta" runTimeClassModel="Bicicleta(ILjava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="70,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Bicicleta" id="poo.alquiler/Bicicleta#Bicicleta(ILjava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Bicicleta->poo.alquiler/Vehiculo" source="//@children.6" target="//@children.8" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,67"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.5/@sourceConnections.2 //@children.7/@sourceConnections.1" autoLocated="true" id="poo.alquiler/Vehiculo&lt;-poo.alquiler/Bicicleta" source="//@children.6" target="//@children.8" targetEnd="//@children.6/@sourceConnections.1/@children.1" sourceEnd="//@children.6/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="4,67" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.3" name="Moto" location="642,183" size="76,67" id="poo.alquiler/Moto" runTimeClassModel="Moto(ILjava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="53,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Moto" id="poo.alquiler/Moto#Moto(ILjava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="poo.alquiler/Moto->poo.alquiler/Vehiculo" source="//@children.7" target="//@children.8" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="6,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,67"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="poo.alquiler/Vehiculo&lt;-poo.alquiler/Moto" source="//@children.7" target="//@children.6/@sourceConnections.1" targetEnd="//@children.7/@sourceConnections.1/@children.1" sourceEnd="//@children.7/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="38,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.6/@sourceConnections.1 //@children.5/@sourceConnections.1 //@children.7/@sourceConnections.0 //@children.4/@sourceConnections.1" name="Vehiculo" location="518,66" size="97,67" id="poo.alquiler/Vehiculo" runTimeClassModel="Vehiculo(ILjava.lang.String;D)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="71,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Vehiculo" id="poo.alquiler/Vehiculo#Vehiculo(ILjava.lang.String;D)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
